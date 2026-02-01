@@ -1,0 +1,7 @@
+timestamp,system,event_code,severity,message
+2025-03-01T12:01:10Z,NAV,200,INFO,Navigation nominal
+2025-03-01T12:01:15Z,COMMS,300,WARN,Signal strength degraded
+2025-03-01T12:01:20Z,COMMS,301,ERROR,Signal lost
+2025-03-01T12:01:21Z,COMMS,200,INFO,Signal restored
+2025-03-01T12:01:30Z,PAYLOAD,400,ERROR,Payload overheating
+2025-03-01T12:01:35Z,PAYLOAD,400,ERROR,Payload overheating
