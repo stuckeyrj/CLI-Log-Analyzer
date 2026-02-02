@@ -23,7 +23,7 @@ def main():
             system_events(filename)
         elif filename == "operator_commands.csv":
             print(f"Routing {filename} to operator command analyzer")
-        
+            operator_commands(filename)
         elif filename == "sensor_health.csv":
             print(f"Routing {filename} to sensor health analyzer")
             sensor_health(filename)
