@@ -1,5 +1,6 @@
 import os
-
+import sensor_health
+import system_events
 DATA_DIR = "data"
 
 def main():
@@ -17,13 +18,13 @@ def main():
 
         elif filename == "system_events.csv":
             print(f"Routing {filename} to system event analyzer")
-
+            system_events(filename)
         elif filename == "operator_commands.csv":
             print(f"Routing {filename} to operator command analyzer")
 
         elif filename == "sensor_health.csv":
             print(f"Routing {filename} to sensor health analyzer")
-
+            sensor_health(filename)
         else:
             print(f"Unknown file type: {filename}")
 
