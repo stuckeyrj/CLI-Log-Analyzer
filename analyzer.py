@@ -1,6 +1,8 @@
 import os
 import sensor_health
 import system_events
+import mission_telemetry
+import operator_commands
 DATA_DIR = "data"
 
 def main():
@@ -15,7 +17,7 @@ def main():
 
         if filename == "mission_telemetry.csv":
             print(f"Routing {filename} to telemetry analyzer")
-
+            mission_telemetry(filename)
         elif filename == "system_events.csv":
             print(f"Routing {filename} to system event analyzer")
             system_events(filename)
