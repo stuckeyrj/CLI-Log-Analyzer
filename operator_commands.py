@@ -6,7 +6,7 @@ import csv
 
 #file_path = os.path.join(DATA_DIR, "operator_commands.csv")
 #file_path = "/data/mission_telemetry.csv"
-def operator_commands(file_path):
+def operator_commands_parser(file_path):
     missing_data = []
     good_data = []
     bad_data = []
