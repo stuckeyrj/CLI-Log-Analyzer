@@ -21,7 +21,7 @@ def main():
             operator_commands(filename)
         elif filename == "operator_commands.csv":
             print(f"Routing {filename} to operator command analyzer")
-
+        
         elif filename == "sensor_health.csv":
             print(f"Routing {filename} to sensor health analyzer")
 
